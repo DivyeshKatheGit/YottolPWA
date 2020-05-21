@@ -1,5 +1,5 @@
 {
-    "background_color" : "#2274A5",
+    "background_color" : "#3498db",
     "description" : "Testing PWA",
     "display" : "fullscreen",
     "icons": [{
@@ -10,5 +10,5 @@
     "name" : "Yottol",
     "short_name" : "Yottol",
     "start_url" : "https://divyeshkathegit.github.io/YottolPWA/index.html",
-    "theme_color" : "#2274A5"
+    "theme_color" : "#3498db"
 }
