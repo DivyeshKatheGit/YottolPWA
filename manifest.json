@@ -9,6 +9,6 @@
     }],
     "name" : "Yottol",
     "short_name" : "Yottol",
-    "start_url" : "./index.html",
+    "start_url" : "https://divyeshkathegit.github.io/YottolPWA/index.html",
     "theme_color" : "#2274A5"
 }
