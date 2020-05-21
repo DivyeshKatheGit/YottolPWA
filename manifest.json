@@ -1,0 +1,14 @@
+{
+    "background_color" : "#2274A5",
+    "description" : "Testing PWA",
+    "display" : "fullscreen",
+    "icons": [{
+        "src" : "Yottol.png",
+        "sizes" : "192x192",
+        "type" : "image/png"
+    }],
+    "name" : "Yottol",
+    "short_name" : "Yottol",
+    "start_url" : "./index.html",
+    "theme_color" : "#2274A5"
+}
