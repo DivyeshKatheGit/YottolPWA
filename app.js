@@ -17,7 +17,7 @@ window.addEventListener('beforeinstallprompt', function(event) {
 // Add button click event
 btnAdd.addEventListener('click', (e) => {
 
-  btnAdd.style.display = 'none';
+  addTo.style.display = 'none';
   // Show the prompt
   deferredPrompt.prompt();
 
