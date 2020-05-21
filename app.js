@@ -1,14 +1,14 @@
 const btnAdd = document.querySelector('.add-button');
 const btnClose = document.querySelector('.close');
 const addTo = document.querySelector('.add-to')
-btnAdd.style.display = "none";
+addTo.style.display = "none";
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', function(event) {
   // Preventing earlier versions
   event.preventDefault();
   // console.log("done");
-  btnAdd.style.display = "block";
+  addTo.style.display = "flex";
 
   
   deferredPrompt = event;
