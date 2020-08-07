@@ -7,7 +7,7 @@ let deferredPrompt;
 window.addEventListener('beforeinstallprompt', function(event) {
   // Preventing earlier versions
   event.preventDefault();
-  // console.log("done");
+  console.log("done");
   addTo.style.display = "flex";
 
   
