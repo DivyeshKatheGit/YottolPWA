@@ -4,6 +4,8 @@ const addTo = document.querySelector('.add-to')
 addTo.style.display = "none";
 let deferredPrompt;
 
+
+console.log("start");
 window.addEventListener('beforeinstallprompt', function(event) {
   // Preventing earlier versions
   event.preventDefault();
